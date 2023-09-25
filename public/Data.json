@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/9pJ3nDy/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Health refers to the state of physical, mental, and social well-being, where an individual is free from illness or injury. It encompasses not only the absence of disease but also the ability to lead a fulfilling and productive life. Health is a dynamic concept that can change over time and is influenced by various factors, including genetics, lifestyle, and access to healthcare.",
+      "price": 290.00
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/xf3D6F8/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 500.00
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/cgcMkDQ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79c23f33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Used clothing drives promote sustainability by extending the lifecycle of clothing items, reducing waste, and helping those facing economic challenges. They also foster a sense of community involvement and empathy by encouraging people to contribute to the well-being of others.",
+      "price": 300.00
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/pztTVHM/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "Food is a vital source of nourishment and sustenance for all living organisms, including humans. It provides essential nutrients such as carbohydrates, proteins, fats, vitamins, and minerals necessary for growth, energy, and overall health.",
+      "price": 700.00
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/g3qt35x/wepik-export-202309250536234tv-U.png",
+      "title": "Donate Food, Feed Souls",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": " Food donations play a crucial role in alleviating hunger and addressing food insecurity, which affects millions of people globally.These acts of kindness provide essential sustenance to those facing economic hardships, homelessness, or natural disasters. Food donations can be in the form of non-perishable items, fresh produce, or cooked meals, and they make a tangible difference in the lives of recipients, offering not only nourishment but also a sense of hope and dignity.",
+      "price": 350.00
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/zny9YS9/wepik-export-20230925055523-Cl-P1.png",
+      "title": "Warm Blanket Drive",
+      "category": "Clothing",
+      "category_bg": "#79c23f33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "A Warm Blanket Drive is a charitable initiative aimed at collecting and distributing blankets to individuals and communities in need, particularly during cold or inclement weather conditions. The primary goal of such drives is to provide warmth and comfort to those who may not have access to adequate heating or shelter.These blankets can be made of various materials, including fleece, wool, or thermal fabrics, designed to provide insulation and warmth.",
+      "price": 450.00
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/rwQMT8b/5be9699334ac2-royalty-free-thumbnail.jpg",
+      "title": "The Joy of Learning",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "The Joy of Learning encapsulates the delightful experience of acquiring new knowledge and skills. It refers to the innate sense of curiosity and wonder that accompanies the process of discovery and growth through education.It's about the excitement of exploring new ideas, solving problems, and gaining insights that expand one's horizons.",
+      "price": 390.00
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/ZX38NSk/wepik-export-20230925054922tchb.png",
+      "title": "Healthcare Access for All",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Ensuring healthcare access for all is essential for promoting overall well-being, preventing diseases, and addressing health disparities within societies. It involves removing barriers such as financial constraints, geographical limitations, and discrimination that can prevent people from seeking and receiving medical care.Healthcare access for all is not only a matter of public health but also contributes to economic productivity and social stability. ",
+      "price": 650.00
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/v4zXgCX/wepik-export-20230925054838iol8.png",
+      "title": "Balanced Diet for Well-being",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "A balanced diet typically consists of fruits, vegetables, whole grains, lean proteins, and healthy fats. It aims to maintain proper body weight, support growth and development, and reduce the risk of chronic diseases such as heart disease, diabetes, and obesity.Drinking plenty of water and limiting the intake of sugary and processed foods are additional components of a balanced diet.",
+      "price": 420.00
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/Zf5XCRJ/wepik-export-20230925055718-LTi-K.png",
+      "title": "Education and Equality",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#FF444A",
+      "description": "Educational equality is essential for fostering social inclusion, reducing inequality, and promoting a fair and just society.It aims to break down barriers that can hinder marginalized groups from reaching their full potential through education.It promotes equal access to educational resources, facilities, and opportunities for all, regardless of their circumstances.",
+      "price": 500.00
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/MfdBvbp/wepik-export-20230925055259-OAc-S.png",
+      "title": "School Uniform Donations",
+      "category": "Clothing",
+      "category_bg": "#79c23f33",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79C23F",
+      "description": "Organized by schools, community organizations, or charitable groups, School Uniform Donations typically involve the collection of new or gently used school uniforms from donors.The uniforms acquired through these efforts are then distributed to students who come from economically disadvantaged backgrounds, fostering a sense of equality and inclusivity within educational institutions.",
+      "price": 250.00
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/FXJQwmX/wepik-export-202309250547424-JHz.png",
+      "title": "Nutrition important for all",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_button_bg": "#F87147",
+      "description": "Nutrition is essential for all individuals, regardless of age, gender, or background. It plays a pivotal role in maintaining overall health and well-being. A balanced diet rich in essential nutrients, including carbohydrates, proteins, fats, vitamins, and minerals, is crucial for optimal physical and mental functioning.",
+      "price": 460.00
+    }
+  ]
