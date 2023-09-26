@@ -41,7 +41,7 @@ const DonationDetails = ({ card }) => {
                     <img src={picture} alt="" className=" bg-cover   rounded-3xl mt-12 w-auto h-18     lg:w-10/12 h-[540px]  " />
                 </div>
                 <div className=" absolute bottom-0 rounded-b-3xl bg-black bg-opacity-50 p-8  transition-opacity  opacity-100 
-                 left-0 right-0 mx-0  lg:ml-28 mr-28">
+                 left-0 right-0 mx-0  lg:ml-28 lg:mr-28">
                  
                   
 
