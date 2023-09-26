@@ -14,7 +14,7 @@ const CardsDetails = ({ card }) => {
             <div className="card w-[300px]  my-4   " style={{backgroundColor: card_bg,color:text_button_bg}}>
                 <figure className="h-[188px]"><img src={picture} alt="" /></figure>
                 <div className="card-body m-0">
-                    <h3 className="card-title w-20 p-2  justify-center rounded text-sm font-medium " style={{backgroundColor: category_bg}}>
+                    <h3 className="card-title w-20 p-2  justify-center rounded-md text-sm font-medium " style={{backgroundColor: category_bg}}>
                         {category}
 
                     </h3>

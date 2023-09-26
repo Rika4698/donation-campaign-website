@@ -25,7 +25,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/favorites"
+                                        to="/donation"
                                         className={({ isActive, isPending }) =>
                                             isPending ? "pending" : isActive ? "text-[#6c4ac9] font-bold underline" : ""
                                         }
@@ -37,7 +37,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/login"
+                                        to="/statistics"
                                         className={({ isActive, isPending }) =>
                                             isPending ? "pending" : isActive ? "text-[#4672cf] font-bold underline" : ""
                                         }
@@ -66,7 +66,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/favorites"
+                                    to="/donation"
                                     className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "text-[#FF444A] font-bold underline" : ""
                                     }
@@ -78,7 +78,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/login"
+                                    to="/statistics"
                                     className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "text-[#FF444A] font-bold underline" : ""
                                     }

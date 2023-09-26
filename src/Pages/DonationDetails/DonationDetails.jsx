@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
 import swal from "sweetalert";
 
 
 const DonationDetails = ({ card }) => {
-    const { id, picture, title, text_button_bg, price, description } = card || {};
+    const { id, picture, title,category, category_bg,text_button_bg,card_bg, price, description, } = card || {};
 
     const handleAddToDonate = () => {
         const addedDonateArray = [];
@@ -16,7 +17,7 @@ const DonationDetails = ({ card }) => {
         }
         else {
             const isExits = donateItems.find((card) => card.id === id);
-            console.log(id,card.id);
+           
             
             if (!isExits) {
       
