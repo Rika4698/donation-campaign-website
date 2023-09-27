@@ -1,6 +1,13 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-undef */
 
 
-const Banner = () => {
+const Banner = ({handleSearch}) => {
+    const myRef = useRef();
+    const handleSubmit = (e) =>{
+handleSearch(e,myRef);
+
+    }
     return (
         <div className=" ">
             <div className="h-[80vh] w-100%  bg-[url('https://i.ibb.co/TghQnFJ/people-meeting-community-center.jpg')] bg-cover bg-center ">
@@ -10,13 +17,13 @@ const Banner = () => {
                         <div className="join justify-center items-center mt-10 w-auto ">
                             <div>
                                 <div>
-                                    <input className="input input-bordered join-item lg: w-80" placeholder="Search here...." />
+                                    <input ref={myRef}  className="input input-bordered join-item lg: w-80" placeholder="Search here...." />
                                 </div>
                             </div>
 
                             <div className="">
 
-                                <button 
+                                <button onClick={handleSearch}
                                  className="btn join-item  capitalize text-white text-sm bg-[#FF444A] font-semibold">Search</button>
                             </div>
                         </div>
