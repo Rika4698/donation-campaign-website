@@ -1,47 +1,63 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import { Doughnut } from 'react-chartjs-2'; // Import Doughnut chart from react-chartjs-2
+/* eslint-disable react/prop-types */
+import React, { PureComponent } from 'react';
+import {  useLoaderData } from "react-router-dom";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
+
+
+
+const COLORS = ["#0088FE", "#00C49F"];
+const RADIAN = Math.PI / 180;
+const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+const x = cx + radius * Math.cos(-midAngle * RADIAN);
+const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+return (
+<text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+  {`${(percent * 100).toFixed(0)}%`}
+</text>
+);
+};
 const Statistics = () => {
-  const cards = useLoaderData();
-  let totalDonation = cards.length;
+    const cards = useLoaderData();
+    let totalDonation = cards.length;
+   
+    const donateItems = JSON.parse(localStorage.getItem("donate"));
+    // let yourDonation = donateItems ? donateItems.length : 0;
+    // let yourPercentage = ((yourDonation / totalDonation)* 100).toFixed(2);
+    // let remainingPercentage = (100 - yourPercentage).toFixed(2);
 
-  const donateItems = JSON.parse(localStorage.getItem('donate'));
-  let myDonation = donateItems.length;
-  let myPercentage = ((myDonation / totalDonation) * 100).toFixed(2);
-  let remainingPercentage = (100 - myPercentage).toFixed(2);
-
-  // Create data for the pie chart
-  const data = {
-    labels: ['My Donation', 'Remaining Donation'],
-    datasets: [
-      {
-        data: [myPercentage, remainingPercentage],
-        backgroundColor: ['#36A2EB', '#FF6384'], // You can customize the colors here
-        hoverBackgroundColor: ['#36A2EB', '#FF6384'],
-      },
-    ],
-  };
-
-  return (
-    <div className='h-96 w-96'>
-      <Doughnut
-        data={data}
-        options={{
-          responsive: true,
-          maintainAspectRatio: false, // Set to false to control the aspect ratio
-          tooltips: {
-            callbacks: {
-              label: function (tooltipItem, data) {
-                return data.labels[tooltipItem.index] + ': ' + data.datasets[0].data[tooltipItem.index] + '%';
-              },
-            },
-          },
-        }}
-      />
-    </div>
-  );
+    const data = [
+      { name: "Your Donation", value: 6 },
+    { name: "Total Donation", value: 6 },
+    ];
+    return (
+        
+      
+        <ResponsiveContainer width="70%" height="80%">
+      <PieChart width={400} height={400}>
+        <Pie
+          dataKey="value"
+          data={data}
+          cx="50%"
+            cy="50%"
+            labelLine={false}
+            label={renderCustomizedLabel}
+          outerRadius={80}
+          fill="#8884d8"
+          
+        >
+          {data.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+        ))}
+      </Pie>
+    </PieChart>
+    </ResponsiveContainer>
+   
+    );         
 };
 
 export default Statistics;
+
 

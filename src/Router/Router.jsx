@@ -5,6 +5,7 @@ import DonationSet from "../Pages/DonationSet/DonationSet";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
+import Chart from "../Pages/Statistics/Chart";
 
 
 
@@ -28,8 +29,8 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/statistics',
-                element: <Statistics></Statistics>,
-                loader: () => fetch('/Data.json')
+                element: <Chart></Chart>
+               
 
             },
             {
