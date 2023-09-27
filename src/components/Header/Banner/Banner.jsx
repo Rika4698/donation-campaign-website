@@ -16,7 +16,8 @@ const Banner = () => {
 
                             <div className="">
 
-                                <button className="btn join-item  capitalize text-white text-sm bg-[#FF444A] font-semibold">Search</button>
+                                <button 
+                                 className="btn join-item  capitalize text-white text-sm bg-[#FF444A] font-semibold">Search</button>
                             </div>
                         </div>
                     </div>

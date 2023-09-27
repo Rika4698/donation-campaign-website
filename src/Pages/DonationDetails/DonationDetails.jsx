@@ -38,10 +38,11 @@ const DonationDetails = ({ card }) => {
         <div>
             <div className="relative ">
                 <div className="flex justify-center items-center ">
-                    <img src={picture} alt="" className=" bg-cover   rounded-3xl mt-12 w-auto h-18     lg:w-10/12 h-[540px]  " />
+                    <img src={picture} alt="" className=" bg-cover   rounded-3xl mt-12 w-auto h-18  md:w-screen   lg:w-[865px] h-[540px] xl:w-10/12  " />
                 </div>
                 <div className=" absolute bottom-0 rounded-b-3xl bg-black bg-opacity-50 p-8  transition-opacity  opacity-100 
-                 left-0 right-0 mx-0  lg:ml-28 lg:mr-28">
+                 left-0 right-0 mx-0  lg:left-20
+                  lg:mr-20 xl:ml-8 xl:right-8 ">
                  
                   
 

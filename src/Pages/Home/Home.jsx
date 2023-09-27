@@ -9,6 +9,7 @@ const Home = () => {
 const cards = useLoaderData();
 
 
+
     return (
         <div>
            <Banner></Banner>

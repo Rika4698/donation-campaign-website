@@ -11,8 +11,8 @@ const CardsDetails = ({ card }) => {
     return (
         <div>
             <Link to={`/cards/${id}`}>
-            <div className="card w-[300px]  my-4   " style={{backgroundColor: card_bg,color:text_button_bg}}>
-                <figure className="h-[188px]"><img src={picture} alt="" /></figure>
+            <div className="card my-4 w-[300px]  xl:w-[290px] lg:w-[222px] lg:h-[310px]   " style={{backgroundColor: card_bg,color:text_button_bg}}>
+                <figure className="h-[188px] xl:h-[208px] xl:w-auto lg:w-[222px] lg:h-[140px] "><img src={picture} alt="" /></figure>
                 <div className="card-body m-0">
                     <h3 className="card-title w-20 p-2  justify-center rounded-md text-sm font-medium " style={{backgroundColor: category_bg}}>
                         {category}
