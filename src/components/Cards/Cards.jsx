@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 
 import CardsDetails from "./CardsDetails";
-
-
 const Cards = ({ cards }) => {
     
     return (

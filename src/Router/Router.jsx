@@ -4,7 +4,7 @@ import Home from "../Pages/Home/Home";
 import DonationSet from "../Pages/DonationSet/DonationSet";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Donation from "../Pages/Donation/Donation";
-import Statistics from "../Pages/Statistics/Statistics";
+
 import Chart from "../Pages/Statistics/Chart";
 
 

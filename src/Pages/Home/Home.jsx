@@ -1,23 +1,29 @@
-/* eslint-disable no-unused-vars */
 import { useLoaderData } from "react-router-dom";
 import Cards from "../../components/Cards/Cards";
 import Banner from "../../components/Header/Banner/Banner";
 import { useState } from "react";
-
-
-
 const Home = () => {
-const [showCards,setShowCards] = useState([]);
-const cards = useLoaderData();
+    const cards = useLoaderData();
+    const [searchCategory, setSearchCategory] = useState("");
+  const [filteredCards, setFilteredCards] = useState(cards);
 
 
-
-
+const handleSearch = () => {
+    const filtered = cards.filter((card) =>
+    card.category.toLowerCase().includes(searchCategory.toLowerCase())
+  );
+  setFilteredCards(filtered);
+  };
 
     return (
         <div>
-           <Banner></Banner>
-           <Cards cards = {cards}></Cards>
+        <div>
+           <Banner setSearchCategory={setSearchCategory} 
+           handleSearch={handleSearch}></Banner>
+        </div>
+        <div>
+        <Cards cards={filteredCards}></Cards>
+        </div>
         </div>
     );
 };

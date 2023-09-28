@@ -16,7 +16,7 @@ const DonationDetails = ({ card }) => {
             swal("Good job!", "Donate added successfully in donation section.", "success");
         }
         else {
-            const isExits = donateItems.find((card) => card.id === id);
+            const isExits = donateItems.find((card) => card.id == id);
            
             
             if (!isExits) {

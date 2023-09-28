@@ -20,7 +20,7 @@ const DonateCard = ({ card }) => {
                     <h2 className="font-extrabold text-base ">{title}</h2>
                     <h3>${price}.00</h3>
                     <div className="card-actions"> <Link to={`/cards/${id}`}>
-                        <button className="btn capitalize text-lg font-semibold text-white" style={{ backgroundColor: text_button_bg }}>View Details</button>
+                        <button className=" rounded capitalize text-lg font-semibold text-white py-2.5 px-4" style={{ backgroundColor: text_button_bg }}>View Details</button>
                     </Link>
                     </div>
                 </div>
